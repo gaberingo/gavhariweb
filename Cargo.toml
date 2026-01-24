@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "apps/backend",
+  "apps/frontend"
+, "crates/dto"]
+resolver = "2"
