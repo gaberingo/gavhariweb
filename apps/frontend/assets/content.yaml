@@ -1,0 +1,47 @@
+hero:
+  kicker: "Systems Portfolio"
+  title: "Building reliable systems with"
+  highlight: "Rust"
+  suffix: "& WebAssembly"
+  subtitle: "Engineer fokus pada performa tinggi, correctness, dan pengalaman developer yang rapi untuk produk digital."
+  primary_cta: 
+    label: "View Projects"
+    url: "/projects"
+  secondary_cta: 
+    label: "Contact Me"
+    url: "/about"
+  code_snippet: |-
+    <span class="token-keyword">use</span> <span class="token-module">std</span>::<span class="token-module">sync</span>::<span class="token-type">Arc</span>;
+    <span class="token-keyword">use</span> <span class="token-module">tokio</span>::<span class="token-module">sync</span>::<span class="token-type">Mutex</span>;
+
+    <span class="token-keyword">struct</span> <span class="token-type">SystemEngineer</span> {
+        stack: <span class="token-type">Vec</span>&lt;<span class="token-type">Skill</span>&gt;,
+        uptime: <span class="token-type">f64</span>,
+    }
+
+    <span class="token-keyword">impl</span> <span class="token-type">SystemEngineer</span> {
+        <span class="token-keyword">pub</span> <span class="token-keyword">fn</span> <span class="token-fn">new</span>() -&gt; <span class="token-keyword">Self</span> {
+            <span class="token-keyword">Self</span> {
+                stack: vec![
+                    <span class="token-type">Skill</span>::<span class="token-const">Rust</span>,
+                    <span class="token-type">Skill</span>::<span class="token-const">Wasm</span>,
+                    <span class="token-type">Skill</span>::<span class="token-const">DistributedSystems</span>,
+                ],
+                uptime: <span class="token-number">99.99</span>,
+            }
+        }
+    }
+cta:
+  title: "Let's build something reliable"
+  subtitle: "Butuh optimasi performa, backend high-throughput, atau konsultasi sistem? Yuk diskusi."
+  primary_cta: "Get in touch"
+  secondary_cta: "Download CV"
+footer:
+  brand: "Gavhari"
+  copyright: "© 2024. Built with Rust mindset."
+  timezone: "UTC+7 (ID)"
+  local_time: "Local time: 14:02"
+  links:
+    - "GitHub"
+    - "LinkedIn"
+    - "Twitter"

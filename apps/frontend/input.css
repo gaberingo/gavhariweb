@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@source "./index.html";
+@source "./src/**/*.{rs,html}";
+@source not "./tailwindcss";
+@source not "./daisyui{,*}.mjs";
+
+@plugin "./daisyui.mjs";
+
+@layer base {
+  :root {
+    --neon-border-glow: rgba(236, 73, 19, 0.22);
+    --neon-border-soft: rgba(236, 73, 19, 0.12);
+    --neon-border-ambient: rgba(255, 176, 138, 0.07);
+  }
+
+  .neon-border {
+    box-shadow: 0 0 0 1px rgba(236, 73, 19, 0.09),
+      0 0 10px var(--neon-border-soft),
+      0 0 22px var(--neon-border-glow),
+      0 0 36px var(--neon-border-ambient),
+      var(--tw-shadow, 0 0 #0000);
+  }
+
+  .neon-border-cool {
+    --neon-border-glow: rgba(20, 184, 166, 0.22);
+    --neon-border-soft: rgba(56, 189, 248, 0.12);
+    --neon-border-ambient: rgba(56, 189, 248, 0.07);
+  }
+
+  .code-snippet {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .code-snippet .token-keyword {
+    color: #f59e0b;
+  }
+
+  .code-snippet .token-type {
+    color: #22d3ee;
+  }
+
+  .code-snippet .token-module {
+    color: #a78bfa;
+  }
+
+  .code-snippet .token-fn {
+    color: #facc15;
+  }
+
+  .code-snippet .token-const {
+    color: #fb7185;
+  }
+
+  .code-snippet .token-number {
+    color: #34d399;
+  }
+}
