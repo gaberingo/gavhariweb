@@ -8,7 +8,7 @@ pub fn Navbar() -> Html {
             class="sticky top-0 z-50 w-full border-b border-[#392c28] bg-[#181311]/80 backdrop-blur-md"
             data-doc="Navbar wrapper: branding + nav + actions."
         >
-            <div class="mx-auto flex max-w-[1280px] items-center justify-between px-4 py-3 md:px-10">
+            <div class="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-3 md:px-10">
                 <a class="group flex items-center gap-3" href="#" data-doc="Branding block: logo + name.">
                     <div class="relative flex h-9 w-9 items-center justify-center">
                         <div class="absolute inset-0 rounded-[10px] bg-gradient-to-br from-[#ff7a18] via-[#ec4913] to-[#9e2a12] opacity-90 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-105"></div>
@@ -23,7 +23,7 @@ pub fn Navbar() -> Html {
 
                 <div class="flex items-center gap-6">
                     <nav class="hidden items-center gap-8 md:flex" data-doc="Primary navigation links.">
-                        <a class="text-sm font-medium text-white/70 transition-colors hover:text-[#ec4913]" href="#">{"Projects"}</a>
+                        <a class="text-sm font-medium text-white/70 transition-colors hover:text-[#ec4913]" href="/projects">{"Projects"}</a>
                         <a class="text-sm font-medium text-white/70 transition-colors hover:text-[#ec4913]" href="#">{"Writing"}</a>
                         <a class="text-sm font-medium text-white/70 transition-colors hover:text-[#ec4913]" href="#">{"About"}</a>
                     </nav>
@@ -42,7 +42,7 @@ pub fn Navbar() -> Html {
                                 <span class="text-2xl">{"="}</span>
                             </summary>
                             <div class="absolute right-0 mt-2 flex w-52 flex-col gap-2 rounded-lg border border-[#392c28] bg-[#181311] p-3 text-sm text-white/70 shadow-[0_16px_40px_rgba(0,0,0,0.4)]">
-                                <a class="transition hover:text-[#ec4913]" href="#">{"Projects"}</a>
+                                <a class="transition hover:text-[#ec4913]" href="/projects">{"Projects"}</a>
                                 <a class="transition hover:text-[#ec4913]" href="#">{"Writing"}</a>
                                 <a class="transition hover:text-[#ec4913]" href="#">{"About"}</a>
                             </div>

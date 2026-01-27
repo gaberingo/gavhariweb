@@ -1,9 +1,10 @@
 use yew::prelude::*;
 
-use crate::components::{CtaSection, HeroSection, Navbar, SiteFooter};
+use crate::components::{Navbar, SiteFooter};
 use crate::content::load_site_content;
 use crate::pages::home::sections::{
-    FeaturedProjectsSection, StatsSection, TechStackSection, ValuePropsSection,
+    CtaSection, FeaturedProjectsSection, HeroSection, StatsSection, TechStackSection,
+    ValuePropsSection,
 };
 
 /// Home page layout (static for now).
@@ -15,7 +16,7 @@ pub fn HomePage() -> Html {
             <Navbar />
             <main class="pb-16" data-doc="Main content wrapper.">
                 <HeroSection data={content.hero.clone()} />
-                <StatsSection />
+                <StatsSection data={content.stats.clone()}/>
                 <ValuePropsSection />
                 <TechStackSection />
                 <FeaturedProjectsSection />

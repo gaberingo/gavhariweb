@@ -9,7 +9,7 @@ pub fn ValuePropsSection() -> Html {
                 <div class="absolute -left-20 top-10 h-64 w-64 rounded-full bg-[#ec4913]/10 blur-[110px]"></div>
                 <div class="absolute right-6 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full bg-[#38bdf8]/10 blur-[130px]"></div>
             </div>
-            <div class="relative mx-auto flex max-w-[1280px] flex-col gap-12 px-4 md:flex-row md:gap-16 md:px-10">
+            <div class="relative mx-auto flex max-w-[1440px] flex-col gap-12 px-4 md:flex-row md:gap-16 md:px-10">
             <div class="md:w-1/3 md:self-start md:sticky md:top-24">
                 <div class="inline-flex items-center gap-2 rounded-full border border-[#392c28] bg-[#1c1513] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.3em] text-white/60">
                     <span class="h-1.5 w-1.5 rounded-full bg-[#ec4913]"></span>

@@ -45,3 +45,70 @@ footer:
     - "GitHub"
     - "LinkedIn"
     - "Twitter"
+stats:
+  - value: "40%"
+    label: "Latency Cut"
+  - value: "100%"
+    label: "Memory Safety"
+  - value: "5+"
+    label: OSS Crates
+  - value: "99.9%"
+    label: "Uptime Delivered"
+projects:
+  hero:
+    title: "Engineering"
+    highlight: "Impact"
+    subtitle: "Building high-performance systems with Rust and WebAssembly, focused on memory safety, concurrency, and scalable architecture."
+  filters:
+    categories: ["All", "Systems", "Web", "Tools"]
+    stack: ["Rust", "WASM", "Actix", "Tauri"]
+    years: ["All", "2024", "2023", "2022"]
+  cards:
+    - title: "Hyper-V Monitor"
+      description: "Real-time virtualization telemetry dashboard with low-overhead data collection."
+      icon: "monitor"
+      badge: "v1.0.4"
+      tags: ["Rust", "Tauri", "Sysinfo"]
+    - title: "Actix Boilerplate"
+      description: "Opinionated backend starter template with built-in auth, logging, and metrics."
+      icon: "dns"
+      badge: "v2.1.0"
+      tags: ["Actix", "SQLx", "Postgres"]
+    - title: "WASM Compressor"
+      description: "Browser-based image compression running entirely on the client."
+      icon: "image"
+      tags: ["Yew", "WASM", "WebWorkers"]
+    - title: "CLI Ledger"
+      description: "Double-entry accounting tool for the command line with Git versioning support."
+      icon: "terminal"
+      tags: ["Rust", "Clap", "Git2"]
+    - title: "P2P Mesh"
+      description: "Experimental decentralized messaging protocol over WebRTC data channels."
+      icon: "hub"
+      badge: "WIP"
+      tags: ["Libp2p", "Async", "Tokio"]
+    - title: "Embedded OS"
+      description: "Minimal RTOS kernel written for ARM Cortex-M microcontrollers."
+      icon: "memory"
+      tags: ["Embedded", "No-std", "Assembly"]
+  case_study:
+    badges: ["Migration", "Fintech"]
+    title: "Refactoring Legacy Core"
+    description: "Migrating a critical transaction processing microservice from Node.js to Rust to handle seasonal traffic spikes."
+    stats:
+      - value: "30%"
+        label: "Faster Execution"
+        accent: "primary"
+      - value: "-40%"
+        label: "Memory Usage"
+        accent: "green"
+      - value: "99.9%"
+        label: "Uptime"
+      - value: "0"
+        label: "Downtime Incidents"
+  footer_cta:
+    title: "Want a deep dive into the code?"
+    description: "Check out the repositories for these projects or get in touch to discuss system architecture and Rust implementation details."
+    primary_label: "Contact Me"
+    secondary_label: "View GitHub"
+    footer_note: "© 2024 DEV.RS — Built with Rust & Passion."

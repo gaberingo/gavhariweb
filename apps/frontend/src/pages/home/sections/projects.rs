@@ -107,7 +107,7 @@ pub fn FeaturedProjectsSection() -> Html {
                 <div class="absolute -left-24 top-10 h-64 w-64 rounded-full bg-[#ec4913]/10 blur-[110px]"></div>
                 <div class="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-[#14b8a6]/10 blur-[130px]"></div>
             </div>
-            <div class="relative mx-auto max-w-[1280px] px-4 md:px-10">
+            <div class="relative mx-auto max-w-[1440px] px-4 md:px-10">
                 <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
                     <div>
                         <div class="inline-flex items-center gap-2 rounded-full border border-[#392c28] bg-[#1c1513] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.3em] text-white/60">

@@ -9,7 +9,7 @@ pub fn TechStackSection() -> Html {
                 <div class="absolute -left-32 top-10 h-64 w-64 rounded-full bg-[#ec4913]/10 blur-[120px]"></div>
                 <div class="absolute right-0 top-24 h-80 w-80 rounded-full bg-[#3b82f6]/10 blur-[140px]"></div>
             </div>
-            <div class="relative mx-auto max-w-[1280px] px-4 md:px-10">
+            <div class="relative mx-auto max-w-[1440px] px-4 md:px-10">
                 <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
                     <div>
                         <div class="inline-flex items-center gap-2 rounded-full border border-[#392c28] bg-[#1c1513] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.3em] text-white/60">
