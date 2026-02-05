@@ -5,4 +5,10 @@ edition = "2024"
 
 [dependencies]
 dto = { path = "../../crates/dto" }
-
+diesel = { version="*", features = ["postgres", "r2d2", "chrono"] }
+dotenvy = "*"
+actix-web = "*"
+serde = { version = "*", features = ["derive"] }
+chrono = { version = "*" }
+log = "*"
+env_logger = "*"

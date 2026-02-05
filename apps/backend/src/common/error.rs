@@ -1,0 +1,1 @@
+// Definisi error umum aplikasi.
